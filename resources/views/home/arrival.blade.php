@@ -5,7 +5,7 @@
              <img src="images/arrival-bg.png" alt="">
           </div>
           <div class="row">
-             <div class="col-md-6 ml-auto">
+             <div class="ml-auto col-md-6">
                 <div class="heading_container remove_line_bt">
                    <h2>
                       #NewArrivals
@@ -16,7 +16,7 @@
                 </p>
                 <a href="">qz</a>
                 <a href="/view_product">
-                Shop Now
+                  Shop Now
                 </a>
              </div>
           </div>

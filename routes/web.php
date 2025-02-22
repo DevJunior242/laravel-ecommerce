@@ -67,11 +67,7 @@ Route::get('/stripe/{hash}/{connection}', [StripeController::class, 'stripe']);
 Route::post('/stripe/{hashid}/{connection}', [StripeController::class, 'stripePost'])->name('stripe.post');
 
 
-Route::get('foot', [FootController::class, 'foot']);
-
-Route::post('foot', [FootController::class, 'store']);
-Route::get('footShow', [FootController::class, 'footShow']);
-
+ 
 Route::get('sendmail', [TestMailController::class, 'index']);
 Route::get('notify', [UserController::class, 'index']);
 Route::post('/subscribe', [UserController::class, 'subscribe'])->middleware('auth');

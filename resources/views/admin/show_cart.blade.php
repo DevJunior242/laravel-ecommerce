@@ -74,7 +74,8 @@
                         </tr>
                         @php
                         $totalprice = $totalprice + $cart->price;
-                        @endphp
+                   
+                           @endphp
                         @endforeach
                     </table>
                 </div>
