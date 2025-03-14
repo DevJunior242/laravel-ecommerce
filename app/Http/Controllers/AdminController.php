@@ -258,7 +258,7 @@ class AdminController extends Controller
         if ($userRole == '1') {
             $order = Order::find($id);
         } else {
-            $order = Order::whree('id', $id)
+            $order = Order::where('id', $id)
                 ->where('user_id', $user)->first();
         }
 
