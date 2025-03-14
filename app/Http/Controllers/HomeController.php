@@ -94,9 +94,6 @@ class HomeController extends Controller
         return view('home.header');
     }
 
-    public function Userorder()
-    {
-        
-    }
+    
 
 }
